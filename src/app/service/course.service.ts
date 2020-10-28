@@ -14,7 +14,7 @@ export class CourseService {
   constructor(public httpClient: HttpClient) {
     //this.url = './assets/MOCK_DATA.json';
     //this.url = 'http://localhost/University.API/api/Courses/';
-    this.url = environment.apiUrl + 'api/Courses/';
+    this.url = environment.apiUrl + 'Courses/';
    }
 
   public getAll(): Observable<any> {
